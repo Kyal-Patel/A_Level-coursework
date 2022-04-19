@@ -93,9 +93,5 @@ class Student_Data_Viewer:
         Data = [Name_List, DOB_List, School_Year_List, First_Subject_List, Second_Subject_List, Main_Travel_Method_List, Allergies_List, Medical_Conditions_List, Address_List, Parent_Name_List, Parent_Phone_Number_List, Parent_Email_Address_List]
         #Calls the function that draws and adds data to the on-screen table - change the 200 (row spacing) if there is data overlapping
         self.hp.Draw_Canvas(self.View_Student_Data, self.Screen_Width, self.Screen_Height, Columns, Rows, 200, Headings, Data)
-
-        print(Headings)
-        print(Data)
-
-
+        
 sdv = Student_Data_Viewer()

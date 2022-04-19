@@ -89,8 +89,5 @@ class Tutor_Data_Viewer:
             Columns += 1
         #Calls the function that draws and adds data to the on-screen table - change the 200 (row spacing) if there is data overlapping when the table has loaded
         self.hp.Draw_Canvas(self.View_Tutor_Data, self.Screen_Width, self.Screen_Height, Columns, Rows, 200, Headings, Data)
-
-        print(Headings)
-        print(Data)
         
 tdv = Tutor_Data_Viewer()

@@ -72,8 +72,6 @@ class Tutor_Database:
                             "Password" : row[15],
                             "Status" : row[16]}
             Tutor_Info.append(Tutor_Detail)    #Adds the dictionary to the list
-
-        print(Tutor_Info)
         return Tutor_Info    #Brings back the list to the program
 
 td = Tutor_Database()

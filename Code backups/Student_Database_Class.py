@@ -72,8 +72,6 @@ class Student_Database:
                               "Parent_Email_Address" : Row[16]
                 }
             Student_Info.append(Student_Detail)    #Adds the dictionary to the list
-
-        print(Student_Info)
         return Student_Info    #Brings back the list to the program
 
 sd = Student_Database()
